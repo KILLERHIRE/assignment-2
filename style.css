@@ -1,0 +1,44 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    background: black;
+    overflow: hidden;
+}
+
+.kartu {
+    position: relative;
+    width: 500px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: left;
+    color: white;
+    display: flex;
+    gap: 16px;
+}
+
+img {
+    height: 350px;
+    width: 250px;
+    border-radius: 2rem;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0 0 16px;
+}
+
+p {
+    font-size: 14px;
+}
